@@ -21,8 +21,8 @@ def lambda_handler(event, context):
             retrieveAndGenerateConfiguration={
                 'type': 'KNOWLEDGE_BASE',
                 'knowledgeBaseConfiguration': {
-                    'knowledgeBaseId': 'A0QXGE0PMC',
-                    'modelArn': 'arn:aws:bedrock:ap-southeast-2:361769557998:inference-profile/apac.anthropic.claude-3-5-sonnet-20240620-v1:0'
+                    'knowledgeBaseId': '<your knowledgeBaseId>',
+                    'modelArn': '<your inference ModelArn>'
                 }
             }
         )
